@@ -36,7 +36,7 @@ class ProductManagerTest {
         assertArrayEquals(expected, actual);
     }
 
-    // Поиск всех книг - по автору;
+    // Поиск книги - по названию;
     @Test
     public void shouldFindBooksByName() {
 
