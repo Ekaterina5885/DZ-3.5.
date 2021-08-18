@@ -40,8 +40,8 @@ class ProductManagerTest {
     @Test
     public void shouldFindBooksByName() {
 
-        Product[] expected = new Product[]{firstBook, secondBook};
-        Product[] actual = manager.searchBy("Дэн Браун");
+        Product[] expected = new Product[]{secondBook};
+        Product[] actual = manager.searchBy("Код да Винчи (2003)");
         assertArrayEquals(expected, actual);
     }
 
